@@ -6,7 +6,7 @@ import gensim
 from gensim.models import Doc2Vec, Word2Vec
 from gensim.models.fasttext import FastText as FT_gensim
 
-from tensorflow.contrib.tensorboard.plugins import projector
+from tensorboard.plugins import projector
 import tensorflow as tf
 
 from sklearn.base import BaseEstimator, TransformerMixin

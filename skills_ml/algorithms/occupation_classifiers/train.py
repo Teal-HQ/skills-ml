@@ -1,6 +1,6 @@
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import KFold, StratifiedKFold
-from sklearn.externals import joblib
+import joblib
 
 from skills_ml.storage import FSStore, open_sesame
 from skills_ml.ontologies.onet import majorgroupname
